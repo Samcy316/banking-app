@@ -1,5 +1,5 @@
 .main1{
-    
+    flex-wrap: wrap;
     font-weight: 50;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -20,6 +20,7 @@
 }
 .content1{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .content2{
@@ -29,6 +30,7 @@
 .content3{
     display: inline;
     padding-left: 50px;
+    flex-wrap: wrap;
     
 }
 .button3{
@@ -46,7 +48,59 @@
     background-color: red;
     cursor: pointer;
 }
-.space{
+.space1{
     margin-top: 60px;
+    justify-content:center ;
+    display: flex;
+}
+.card1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    
 }
 
+ .img1{
+    margin: auto;
+    padding-bottom: 10px;
+ }
+.content6{
+    color: rgb(0, 195, 255);
+    justify-content: center;
+    display: flex;
+}
+.content7{
+    color: rgb(213, 222, 135);
+    justify-content: center;
+    display: flex;
+}
+.space{
+    margin-top: 30px;
+}
+.button4{
+    
+    height: 40px;
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    
+}
+.button4:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.example-card {
+   
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+    
+
+  }

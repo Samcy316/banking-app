@@ -13,6 +13,7 @@ import { NarBarComponent } from './nar-bar/nar-bar.component';
 import { ContentComponent } from './content/content.component';
 import {MatCardModule} from '@angular/material/card';
 import { MiddleComponent } from './middle/middle.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MiddleComponent } from './middle/middle.component';
     HomeComponent,
     NarBarComponent,
     ContentComponent,
-    MiddleComponent
+    MiddleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

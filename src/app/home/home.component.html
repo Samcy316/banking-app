@@ -1,16 +1,51 @@
 <div class="home-page">
 
-    <!-- <img class="image1" src="assets/images/image1.jpg" alt="image"> -->
-    <div class="menu">
-        <mat-toolbar color="primary">
-            <span>Samcy</span>
-            <span class="example-spacer"></span>
-            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-                <mat-icon>menu</mat-icon>
-            </button>
-
-        </mat-toolbar>
-    </div>
+    <nav style="background-color: blueviolet;" class="navbar navbar-expand-lg navbar-light m-5">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="#">Samcy Agency</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"
+                  >Services</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex input-group w-auto">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+                data-mdb-ripple-color="dark"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
 </div>
 <div class="content1">
     <div class="money">
